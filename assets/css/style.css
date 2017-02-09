@@ -1,0 +1,59 @@
+.YourName{
+	font-family: "Julius Sans One", sans-serif;
+	color: #fff;
+	background-color: #5AAF62;
+	margin-right: 80%;
+	margin-left: 5%;
+	font-weight: normal;
+	padding-bottom: 1px;
+	padding-left: 25px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-variant: small-caps;
+}
+h1{
+	font-weight: lighter;
+}
+h2{
+	font-family: 'Antic Didone', serif;
+	margin-left: 5%;
+	color: #5aaf62;
+	font-size: 1.8em;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-kerning: normal;
+}
+.mainbackground{
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #D0D0D0;
+	float: left;
+	margin-left: 5%;
+	height: 400px;
+	width:  30%;
+	margin-right: 25px;
+	margin-top: 40px;
+}
+.borderbreak{
+	border-bottom-style: solid;
+	border-color:#D0D0D0;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	width: 90%;
+	margin-left: 5%;
+	opacity: 0.5;
+}
+#bio-image{
+	float: left;
+	margin-left: 5%;
+	padding-right: 15px;
+}
+.nameborderbreak{
+
+}
+.abouttext{
+	font-family: 'Roboto', sans-serif;	
+	line-height: 150%;
+	font-kerning: normal;
+	margin-left: 35%;
+}
