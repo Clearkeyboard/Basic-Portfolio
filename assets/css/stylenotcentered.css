@@ -4,6 +4,7 @@
 	color: #fff;
 	background-color: #5AAF62;
 	margin-right: 80%;
+	margin-left: 5%;
 	font-weight: normal;
 	padding-bottom: 1px;
 	padding-left: 25px;
@@ -17,6 +18,7 @@ h1{
 }
 h2{
 	font-family: "Julius Sans One", sans-serif;
+	margin-left: 5%;
 	color: #5aaf62;
 	font-size: 1.8em;
 	font-variant: small-caps;
@@ -27,12 +29,12 @@ h2{
 	border-style: solid;
 	border-width: 1.5px;
 	border-color: #D0D0D0;
+	margin-left: 5%;
 	height: 500px;
 	width:  650px;
 	margin-right: auto;
 	margin-top: 40px;
 	background-color: #fff;
-	float: left;
 }
 .borderbreak{
 	border-bottom-style: solid;
@@ -76,9 +78,10 @@ body{
 	border-color: #D0D0D0;
 	height: 200px;
 	background-color: #fff;
-	float: left;
+	overflow: hidden;
 	width: 270px;
 	margin-top: -502px;
+	margin-left: 850px;
 }
 #github{
 	height: 60px;
@@ -114,9 +117,4 @@ body{
 	margin-left: 5%;
 	opacity: 0.25;
 	height: 1px;
-}
-#wrap{
-	display: block;
-	width: 960px;
-	margin: 0 auto;
 }
