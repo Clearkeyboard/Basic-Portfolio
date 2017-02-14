@@ -134,16 +134,6 @@ body{
 	width: 960px;
 	margin: 0 auto;
 }	
-#pagewrapper{
-	flex: 1;
-}
-#pagewrapper:after {
-	content: "";
-	display: block;
-}
-.stickyfooter, #pagewrapper:after {
-	height: 65px;
-}
 .stickyfooter {
 	margin-top: 3.7%;
 	background: #D0D0D0;
