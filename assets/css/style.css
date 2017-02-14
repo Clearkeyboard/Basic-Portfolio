@@ -1,5 +1,7 @@
 
 .YourName{
+	margin-top: -6%;
+	margin-left: 18.5%;
 	font-family: "Julius Sans One", sans-serif;
 	color: #fff;
 	background-color: #5AAF62;
@@ -10,8 +12,6 @@
 	padding-right: 25px;
 	padding-top: 1px;
 	font-variant: small-caps;
-	margin-top: -6%;
-	margin-left: 18.5%;
 	text-align: center;
 	
 }
@@ -244,5 +244,5 @@ textarea[type=message]:focus {
 
 }
 .bar{
-	
+
 }
