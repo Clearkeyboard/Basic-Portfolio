@@ -76,7 +76,6 @@ body{
 .nameborderbackground{
 	background-color: #fff	;
 	height: 90px;
-	margin-bottom: 10px;
 }
 .ConnectWithMe{
 	border-style: solid;
@@ -127,7 +126,6 @@ body{
 #wrap{
 	width: 100%;
 	margin: 0 auto;
-	min-width: 1500px;
 }
 #wrapper{
 	display: block;
@@ -140,7 +138,6 @@ body{
 	border-top-color: #5aaf62;
 	border-top-style: solid;
 	border-width: 5px;
-	position: fixed;
 	bottom:0;
 	left: 0;
 	right: 0;
