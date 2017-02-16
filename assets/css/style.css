@@ -1,7 +1,7 @@
 
 .YourName{
 	margin-top: -6.3%;
-	margin-left: 18.5%;
+	margin-left: 25%;
 	font-family: "Julius Sans One", sans-serif;
 	color: #fff;
 	background-color: #5AAF62;
@@ -179,7 +179,7 @@ li a:hover {
     animation-fill-mode: backwards;
 }
 .navbar{
-	margin-right: 19%;
+	margin-right: 25%;
 }
 @keyframes li{
     from {background-color: white;}
