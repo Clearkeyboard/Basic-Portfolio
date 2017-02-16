@@ -176,6 +176,7 @@ li a:hover {
     animation-name: li;
     animation-duration: .35s;
     animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
 }
 .navbar{
 	margin-right: 19%;
@@ -231,8 +232,62 @@ textarea[type=message]:focus {
 	border: 3px solid #9CE19C;
 }
 .container{
-
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: 5%;
+	float: left;
+	height: 200px;
+}
+.bartext:hover{
+	animation-name: bartext;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+	@keyframes bartext{
+	0% {transform: translateX(0px);}
+	100% {transform: translateX(-50px);}
+}
+.bar:hover{
+    animation-name: barhover;
+    animation-duration: 2.35s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes barhover{
+    0%, 100% {background-color: #9CE19C;}
+    50% {background-color: #9CA7E1;}
 }
 .bar{
+	height: 55px;
+	background-color: #9CE19C;	
+	font-variant: small-caps;
+	position: relative;
+	bottom: 100px;
+	width: auto;
 
+}
+.bartext{
+	font-family: "Julius Sans One", sans-serif;
+	color: #444;
+	padding-top: 10%;
+	text-align: right;
+	font-weight: bolder;
+	padding-right: 5%;
+	padding-bottom: 10%;
+	font-size: 1.1em;
+	display: block;
+	text-decoration: none;
+}
+.portfolio{
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #D0D0D0;
+	height: auto;
+	width: 50%;
+	margin-right: auto;
+	margin-top: 40px;
+	background-color: #fff;
+	float: left;
+	margin-bottom: 120px;
+	padding: 15px;
 }
