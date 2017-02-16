@@ -221,6 +221,20 @@ form{
 	margin-left: 5%;
 	margin-right: 5%;
 }
+#submit{
+	width: 100px;
+	height: 35px;
+	margin-top: 10px;
+	background-color: #5AAF62;
+	color: #fff;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;	
+	font-size: 1em;
+	letter-spacing: 1px;
+}
 input[type=text] {
 	padding: 12px 20px;
 	box-sizing: border-box;
