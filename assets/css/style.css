@@ -1,6 +1,6 @@
 
 .YourName{
-	margin-top: -6%;
+	margin-top: -6.3%;
 	margin-left: 18.5%;
 	font-family: "Julius Sans One", sans-serif;
 	color: #fff;
@@ -126,7 +126,7 @@ body{
 }
 #wrap{
 	width: 100%;
-	margin: 0 auto;
+	margin-top: 2%;
 	min-width: 1500px;
 }
 #wrapper{
