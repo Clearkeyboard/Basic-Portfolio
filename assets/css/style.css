@@ -127,7 +127,7 @@ body{
 #wrap{
 	width: 100%;
 	margin-top: 0%;
-	min-width: 96em;
+	min-width: 85em;
 }
 #wrapper{
 	display: block;
@@ -179,7 +179,7 @@ li a:hover {
     animation-fill-mode: backwards;
 }
 .navbar{
-	margin-right: 19.5%;
+	margin-right: 28%;
 }
 @keyframes li{
     from {background-color: white;}
